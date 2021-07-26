@@ -1,24 +1,13 @@
 import { FC } from "react";
 import { Route, Switch } from "react-router";
-import { Home } from "./components/Home";
-import { About } from "./components/About";
-import { NotFound } from "./components/NotFound";
+import { Home } from "./components/pages/Home";
+import { About } from "./components/pages/About";
+import { NotFound } from "./components/pages/NotFound";
 import { Link } from "react-router-dom";
 
 const App: FC = () => {
   return (
     <>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route>
-          <NotFound />
-        </Route>
-      </Switch>
       <ul>
         <li>
           <li>
@@ -32,6 +21,17 @@ const App: FC = () => {
           </li>
         </li>
       </ul>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route>
+          <NotFound />
+        </Route>
+      </Switch>
     </>
   );
 };
