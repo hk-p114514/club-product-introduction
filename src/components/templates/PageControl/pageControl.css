@@ -1,0 +1,8 @@
+.page-control {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-control > * {
+  margin: 1em;
+}

@@ -4,6 +4,7 @@ import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
 import { NotFound } from "./components/pages/NotFound";
 import { Link } from "react-router-dom";
+import { PageControl } from "./components/templates/PageControl/PageControl";
 
 const App: FC = () => {
   return (
@@ -21,6 +22,7 @@ const App: FC = () => {
           </li>
         </li>
       </ul>
+      <PageControl />
       <Switch>
         <Route exact path="/">
           <Home />
