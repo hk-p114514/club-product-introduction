@@ -12,6 +12,7 @@ const Fetch: FC = () => {
     "facebook",
     "twitter",
     "oukayuka",
+    "Masa65",
   ];
 
   const getRandomId = (): void => {
