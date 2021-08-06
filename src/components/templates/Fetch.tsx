@@ -1,5 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import { Button } from "../molecules/Button";
+import { SlideShow } from "./SlideShow/SlideShow";
 
 const Fetch: FC = () => {
   const [id, setId] = useState("hk-p114514");
@@ -39,6 +40,7 @@ const Fetch: FC = () => {
         {id}の、GitHub上の名前は{name}です
       </p>
       <Button text="Idを変更" color="primary" func={getRandomId} />
+      <SlideShow />
     </>
   );
 };
