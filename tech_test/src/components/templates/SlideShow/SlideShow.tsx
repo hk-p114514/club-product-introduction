@@ -22,7 +22,7 @@ const settings = {
 const SlideShow: FC = () => {
   return (
     <>
-      <Slider {...settings}>
+      <Slider className="slider" {...settings}>
         <video autoPlay muted loop playsInline controls>
           <source src={video1}></source>
         </video>
