@@ -1,10 +1,19 @@
 // 展示の紹介と作成者氏名
 import { FC } from 'react';
+import { CreatorName } from '../organisms/CreatorName';
+import { IntroductionText } from '../organisms/IntroductionText';
 
-const Introduction: FC = () => {
+type Props = {
+  name: string;
+  text: string;
+};
+
+const Introduction: FC<Props> = (props: Props) => {
+  const { name, text } = props;
   return (
     <>
-      <div></div>
+      <CreatorName name={name} />
+      <IntroductionText text={text} />
     </>
   );
 };
