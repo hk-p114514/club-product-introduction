@@ -4,7 +4,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import { FC } from 'react';
 import Slider from 'react-slick';
 import { imageInfo } from '../../../data/images';
-import { SlideShowImage } from '../organisms/SlideShowImage';
 
 const settings = {
   // 操作系
@@ -19,6 +18,8 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
+  // 見た目調整
+  adaptiveHeight: true,
 };
 
 type Props = {
@@ -30,11 +31,16 @@ const SlideShow: FC<Props> = (props: Props) => {
 
   return (
     <>
-      <Slider {...settings}>
+      <Slider {...settings} className="slider">
         {imageInfo[studentNumber].images.map((image, i) => {
           return (
             <div key={i}>
-              <img src={image} alt="image" />
+              <img
+                src={image}
+                alt="image"
+                className="slider-image"
+                width="50%"
+              />
             </div>
           );
         })}
