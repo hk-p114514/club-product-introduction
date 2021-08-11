@@ -1,5 +1,6 @@
 // 紹介文横の画像、動画のスライドショー
-
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { FC } from 'react';
 import Slider from 'react-slick';
 import { imageInfo } from '../../../data/images';
@@ -11,6 +12,7 @@ const settings = {
   arrows: true,
   // 自動再生
   autoplay: true,
+  autoplaySpeed: 3000,
   pauseOnHover: true,
   // 繰り返し
   infinite: true,
@@ -29,10 +31,12 @@ const SlideShow: FC<Props> = (props: Props) => {
   return (
     <>
       <Slider {...settings}>
-        {imageInfo.map((info) => {
-          info.images.map((image) => {
-            <SlideShowImage image={image} />;
-          });
+        {imageInfo[studentNumber].images.map((image, i) => {
+          return (
+            <div key={i}>
+              <img src={image} alt="image" />
+            </div>
+          );
         })}
       </Slider>
     </>
