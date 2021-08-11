@@ -3,7 +3,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FC } from 'react';
 import Slider from 'react-slick';
-import { imageInfo } from '../../../data/images';
+import { imageInfo } from '../../../data/data';
 
 const settings = {
   // 操作系
