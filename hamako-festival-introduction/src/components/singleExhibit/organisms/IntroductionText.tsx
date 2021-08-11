@@ -1,12 +1,13 @@
 // 展示品作成者による紹介文及びコメントなど
 import { FC } from 'react';
 
-const IntroductionText: FC = () => {
-  return (
-    <>
-      <div></div>
-    </>
-  );
+type Props = {
+  text: string;
+};
+
+const IntroductionText: FC<Props> = (props: Props) => {
+  const { text } = props;
+  return <p>{text}</p>;
 };
 
 export { IntroductionText };
