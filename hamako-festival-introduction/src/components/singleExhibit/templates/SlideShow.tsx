@@ -1,6 +1,7 @@
 // 紹介文横の画像、動画のスライドショー
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import './slideShow.css';
 import { FC } from 'react';
 import Slider from 'react-slick';
 
@@ -18,7 +19,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   // 見た目調整
-  adaptiveHeight: true,
+  // adaptiveHeight: true,
 };
 
 type Props = {
@@ -29,7 +30,7 @@ const SlideShow: FC<Props> = (props: Props) => {
   const { images } = props;
 
   return (
-    <>
+    <div className="slider-container">
       <Slider {...settings} className="slider">
         {images.map((image, i) => {
           return (
@@ -39,7 +40,7 @@ const SlideShow: FC<Props> = (props: Props) => {
           );
         })}
       </Slider>
-    </>
+    </div>
   );
 };
 

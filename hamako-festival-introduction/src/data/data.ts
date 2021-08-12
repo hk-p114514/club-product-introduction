@@ -20,15 +20,13 @@ const data: Data[] = [
     title: 'アンアンパンパンマンマン',
     images: [img0_0, img0_1],
     videos: [],
-    text: `Lorem ipsum dolor sit amet,
-    consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-    nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui
-    officia deserunt mollit anim id est laborum.`,
+    text: `作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です`,
   },
   {
     id: 1,
@@ -37,6 +35,9 @@ const data: Data[] = [
     images: [img1_0, img1_1],
     videos: [],
     text: `作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です作品説明です
     作品説明です作品説明です
     作品説明です作品説明です
     作品説明です`,

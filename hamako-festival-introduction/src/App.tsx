@@ -1,9 +1,11 @@
 import { FC } from 'react';
-import { Debug } from './components/debug/Debug';
+import { Routing } from './components/ListOfExhibits/organisms/Routing';
+import { PageController } from './components/shareComponents/templates/PageController';
 
 const App: FC = () => (
   <>
-    <Debug />
+    <PageController />
+    <Routing />
   </>
 );
 

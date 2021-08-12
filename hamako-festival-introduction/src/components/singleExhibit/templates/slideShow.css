@@ -1,0 +1,13 @@
+.slider-container {
+  width: max(800px, 60vw);
+  background-color: darkgrey;
+}
+
+.slider {
+  width: 100%;
+}
+
+img {
+  /* 親要素いっぱいにする */
+  width: 100%;
+}
