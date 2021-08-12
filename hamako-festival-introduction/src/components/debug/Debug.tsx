@@ -1,11 +1,14 @@
 import { FC } from 'react';
 import { SlideShow } from '../singleExhibit/templates/SlideShow';
+import './debug.css';
 
 const Debug: FC = () => {
   return (
     <>
       <h1>Debug</h1>
-      <SlideShow studentNumber={0} />
+      <section className="slide">
+        <SlideShow studentNumber={1} />
+      </section>
     </>
   );
 };
