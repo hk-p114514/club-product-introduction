@@ -1,11 +1,14 @@
 import { FC } from 'react';
+import { Title } from '../../shareComponents/organisms/Title';
+import { Exhibits } from '../templates/Exhibits';
 
 // 全ての展示の一覧
 const ListOfExhibits: FC = () => {
   return (
-    <div>
-      <h1>Wait...</h1>
-    </div>
+    <>
+      <Title title="" />
+      <Exhibits />
+    </>
   );
 };
 export { ListOfExhibits };
