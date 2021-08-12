@@ -35,12 +35,7 @@ const SlideShow: FC<Props> = (props: Props) => {
         {imageInfo[studentNumber].images.map((image, i) => {
           return (
             <div key={i}>
-              <img
-                src={image}
-                alt="image"
-                className="slider-image"
-                width="50%"
-              />
+              <img src={image} alt="image" />
             </div>
           );
         })}
