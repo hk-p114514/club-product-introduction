@@ -3,7 +3,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FC } from 'react';
 import Slider from 'react-slick';
-import { imageInfo } from '../../../data/data';
+import { data } from '../../../data/data';
 
 const settings = {
   // 操作系
@@ -32,7 +32,7 @@ const SlideShow: FC<Props> = (props: Props) => {
   return (
     <>
       <Slider {...settings} className="slider">
-        {imageInfo[studentNumber].images.map((image, i) => {
+        {data[studentNumber].images.map((image, i) => {
           return (
             <div key={i}>
               <img src={image} alt="image" />

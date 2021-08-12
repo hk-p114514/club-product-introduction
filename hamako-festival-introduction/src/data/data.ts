@@ -7,6 +7,7 @@ import img1_1 from './images/1_1.jpg';
 type Data = {
   id: number;
   name: string;
+  title: string;
   images: string[];
   videos: string[];
   text: string;
@@ -16,6 +17,7 @@ const data: Data[] = [
   {
     id: 0,
     name: 'レッツ剛田',
+    title: 'アンアンパンパンマンマン',
     images: [img0_0, img0_1],
     videos: [],
     text: `Lorem ipsum dolor sit amet,
@@ -31,9 +33,13 @@ const data: Data[] = [
   {
     id: 1,
     name: 'レディー剛田',
+    title: 'Perfect-area complete!',
     images: [img1_0, img1_1],
     videos: [],
-    text: ``,
+    text: `作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です`,
   },
 ];
 

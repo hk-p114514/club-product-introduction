@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Route, Switch } from 'react-router';
-import { imageInfo } from '../../../data/data';
+import { data } from '../../../data/data';
 import { NotFound } from '../../shareComponents/pages/NotFound';
 import { SingleExhibit } from '../../singleExhibit/pages/SingleExhibit';
 import { Exhibits } from '../templates/Exhibits';
@@ -12,8 +12,8 @@ const Routing: FC = () => {
         <Route exact path="/">
           <Exhibits />
         </Route>
-        {imageInfo.map((info) => {
-          const { id, name, text } = info;
+        {data.map((personalData) => {
+          const { id, name, text } = personalData;
           return (
             <Route exact path={`/no${id}`}>
               <SingleExhibit studentNumber={id} name={name} text={text} />
