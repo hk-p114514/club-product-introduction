@@ -4,7 +4,7 @@ import { FC } from 'react';
 const Exhibits: FC = () => {
   return (
     <>
-      <h1>Exhibits</h1>
+      <ul>{}</ul>
     </>
   );
 };

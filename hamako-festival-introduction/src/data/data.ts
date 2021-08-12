@@ -12,7 +12,7 @@ type Data = {
   text: string;
 };
 
-const imageInfo: Data[] = [
+const data: Data[] = [
   {
     id: 0,
     name: 'レッツ剛田',
@@ -37,4 +37,4 @@ const imageInfo: Data[] = [
   },
 ];
 
-export { imageInfo };
+export { data };
