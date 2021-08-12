@@ -4,17 +4,17 @@ import { Introduction } from '../templates/Introduction';
 import { SlideShow } from '../templates/SlideShow';
 import './SingleExhibit.css';
 type Props = {
-  studentNumber: number;
   name: string;
   text: string;
+  images: string[];
 };
 
 const SingleExhibit: FC<Props> = (props: Props) => {
-  const { studentNumber, name, text } = props;
+  const { name, text, images } = props;
   return (
     <>
       <section className="exhibit">
-        <SlideShow studentNumber={studentNumber} />
+        <SlideShow images={images} />
         <Introduction name={name} text={text} />
       </section>
     </>
