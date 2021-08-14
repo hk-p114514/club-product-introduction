@@ -42,6 +42,25 @@ const data: Data[] = [
     作品説明です作品説明です
     作品説明です`,
   },
+  {
+    id: 2,
+    name: '浅田澄禅',
+    title: 'ひらがなでかいてみよう',
+    images: [
+      'https://www.pakutaso.com/shared/img/thumb/medama458A9913_TP_V4.jpg',
+      'https://www.pakutaso.com/shared/img/thumb/medama458A9929_TP_V4.jpg',
+      'https://www.pakutaso.com/shared/img/thumb/medam458A9934_TP_V4.jpg',
+      'https://www.pakutaso.com/shared/img/thumb/medama458A0019_TP_V4.jpg',
+    ],
+    videos: [],
+    text: `作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です作品説明です
+    作品説明です`,
+  },
 ];
 
 export { data };
