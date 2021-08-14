@@ -7,7 +7,7 @@ type Props = {
 // ヘッダのタイトル部分
 const Title: FC<Props> = (props: Props) => {
   const { title } = props;
-  return <h2>{title}</h2>;
+  return <h1>{title}</h1>;
 };
 
 export { Title };
