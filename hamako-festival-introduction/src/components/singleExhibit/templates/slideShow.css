@@ -1,13 +1,13 @@
-.slider-container {
-  width: max(800px, 60vw);
-  background-color: darkgrey;
-}
-
 .slider {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
+  background-color: pink;
 }
 
 img {
+  display: block;
+  margin: 0 auto;
   /* 親要素いっぱいにする */
   width: 100%;
+  /* object-fit: cover; */
 }

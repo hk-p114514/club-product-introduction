@@ -11,10 +11,10 @@ type Props = {
 const Introduction: FC<Props> = (props: Props) => {
   const { name, text } = props;
   return (
-    <>
+    <section className="introduction-container">
       <CreatorName name={name} />
       <IntroductionText text={text} />
-    </>
+    </section>
   );
 };
 

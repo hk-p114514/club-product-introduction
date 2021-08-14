@@ -19,6 +19,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   // 見た目調整
+  // ↓だめだった
   // adaptiveHeight: true,
 };
 
@@ -30,7 +31,7 @@ const SlideShow: FC<Props> = (props: Props) => {
   const { images } = props;
 
   return (
-    <div className="slider-container">
+    <section className="slider-container">
       <Slider {...settings} className="slider">
         {images.map((image, i) => {
           return (
@@ -40,7 +41,7 @@ const SlideShow: FC<Props> = (props: Props) => {
           );
         })}
       </Slider>
-    </div>
+    </section>
   );
 };
 

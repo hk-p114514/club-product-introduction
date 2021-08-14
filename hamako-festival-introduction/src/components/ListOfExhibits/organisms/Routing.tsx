@@ -4,6 +4,7 @@ import { data } from '../../../data/data';
 import { NotFound } from '../../shareComponents/pages/NotFound';
 import { SingleExhibit } from '../../singleExhibit/pages/SingleExhibit';
 import { ListOfExhibits } from '../pages/ListOfExhibits';
+import './routing.css';
 
 const Routing: FC = () => {
   return (
@@ -15,12 +16,14 @@ const Routing: FC = () => {
         const { id, name, text, images, title } = personalData;
         return (
           <Route exact path={`/no${id}`} key={i}>
-            <SingleExhibit
-              name={name}
-              text={text}
-              title={title}
-              images={images}
-            />
+            <main>
+              <SingleExhibit
+                name={name}
+                text={text}
+                title={title}
+                images={images}
+              />
+            </main>
           </Route>
         );
       })}

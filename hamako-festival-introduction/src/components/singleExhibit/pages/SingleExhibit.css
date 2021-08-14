@@ -1,0 +1,17 @@
+.container {
+  background-color: antiquewhite;
+  width: 90%;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.introduction-container {
+  background-color: cyan;
+  padding: 32px;
+}
+
+.slider-container {
+  background-color: plum;
+  /* 画像下にできる余白を削除 */
+  line-height: 0;
+}

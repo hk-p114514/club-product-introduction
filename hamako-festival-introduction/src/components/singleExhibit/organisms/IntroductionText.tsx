@@ -7,7 +7,7 @@ type Props = {
 
 const IntroductionText: FC<Props> = (props: Props) => {
   const { text } = props;
-  return <p>{text}</p>;
+  return <p className="IntroductionText">{text}</p>;
 };
 
 export { IntroductionText };

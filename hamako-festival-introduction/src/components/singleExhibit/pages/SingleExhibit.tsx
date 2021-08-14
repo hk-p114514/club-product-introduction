@@ -1,4 +1,5 @@
 // 個々の展示の紹介ページ
+import { Grid } from '@material-ui/core';
 import { FC } from 'react';
 import { Helmet } from 'react-helmet';
 import { Introduction } from '../templates/Introduction';
@@ -19,8 +20,14 @@ const SingleExhibit: FC<Props> = (props: Props) => {
         <title>{title}</title>
       </Helmet>
       <section className="container">
-        <SlideShow images={images} />
-        <Introduction name={name} text={text} />
+        <Grid container spacing={3}>
+          <Grid item xs={7}>
+            <SlideShow images={images} />
+          </Grid>
+          <Grid item xs={5}>
+            <Introduction name={name} text={text} />
+          </Grid>
+        </Grid>
       </section>
     </>
   );
