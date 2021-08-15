@@ -1,11 +1,13 @@
 import { FC } from 'react';
 import { Routing } from './components/ListOfExhibits/organisms/Routing';
-import { PageController } from './components/shareComponents/templates/PageController';
+import { Header } from './components/shareComponents/templates/Header';
 
 const App: FC = () => (
   <>
-    <PageController />
-    <Routing />
+    <div className="contents">
+      <Header year={2021} />
+      <Routing />
+    </div>
   </>
 );
 

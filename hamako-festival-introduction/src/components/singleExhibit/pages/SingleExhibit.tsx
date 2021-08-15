@@ -21,10 +21,10 @@ const SingleExhibit: FC<Props> = (props: Props) => {
       </Helmet>
       <section className="container">
         <Grid container spacing={3}>
-          <Grid item xs={7}>
+          <Grid item xs={12} lg={7} xl={8}>
             <SlideShow images={images} />
           </Grid>
-          <Grid item xs={5}>
+          <Grid item xs={12} lg={5} xl={12}>
             <Introduction name={name} text={text} />
           </Grid>
         </Grid>

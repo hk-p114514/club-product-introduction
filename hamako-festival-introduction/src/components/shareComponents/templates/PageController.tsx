@@ -4,14 +4,14 @@ import { GoHome } from '../organisms/GoHome';
 import { NextPage } from '../organisms/NextPage';
 import './pageController.css';
 
-const PageController: FC = () => (
-  <>
+const PageController: FC = () => {
+  return (
     <div className="page-controller">
       <BackPage />
       <NextPage />
       <GoHome />
     </div>
-  </>
-);
+  );
+};
 
 export { PageController };
