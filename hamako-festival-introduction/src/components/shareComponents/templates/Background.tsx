@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import './background.css';
 
 const Background: FC = () => {
   return (

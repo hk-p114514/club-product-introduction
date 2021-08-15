@@ -9,11 +9,13 @@ const App: FC = () => {
   return (
     <>
       <div className="main">
-        <LinkControl />
-        <PageControl />
-        <Routing />
+        <div className="contents">
+          <LinkControl />
+          <PageControl />
+          <Routing />
+        </div>
+        <Animation2 />
       </div>
-      <Animation2 />
     </>
   );
 };
