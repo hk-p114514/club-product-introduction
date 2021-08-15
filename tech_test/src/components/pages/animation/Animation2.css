@@ -3,10 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
-.context {
-  z-index: 1;
-  width: 100%;
-  position: absolute;
+
+.animation-container {
+  /* position: fixed; */
+  z-index: 0;
 }
 .area {
   /* わかりやすさのため背景を白に */
@@ -15,8 +15,7 @@
   height: 100vh;
 }
 .circles {
-  /* position: absolute; 既定値 */
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0; /* areaいっぱいに四角を表示する */
   width: 100%;
@@ -112,7 +111,8 @@
     opacity: 0;
     border-radius: 50%;
   }
-} /* ========================================================================= */
+}
+/* ========================================================================= */
 .field div:nth-child(1) {
   animation: move ease-in infinite;
   animation-delay: 2.7s;
