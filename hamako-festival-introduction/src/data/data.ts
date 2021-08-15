@@ -39,7 +39,7 @@ const data: Data[] = [
   {
     id: 1,
     name: 'レディー剛田',
-    title: 'Perfect-area complete!',
+    title: '¥1000',
     images: [img1_0, img1_1],
     videos: [],
     text: testText,
