@@ -1,8 +1,8 @@
 // ヘッダー部分
 import { AppBar, makeStyles, Theme, useTheme } from '@material-ui/core';
-import { Title } from '../organisms/Title';
+import { Title } from '../../organisms/Title';
 import { FC } from 'react';
-import { PageController } from './PageController';
+import { PageController } from '../PageController';
 import './header.css';
 
 type Props = {
@@ -40,4 +40,4 @@ const Header: FC<Props> = (props: Props) => {
   );
 };
 
-export { Header };
+export { Header, useStyle };
