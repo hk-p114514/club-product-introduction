@@ -10,11 +10,11 @@ const App: FC = () => {
   return (
     <>
       <div className="contents">
-        <Hidden mdDown>
+        <Hidden smDown>
           {/* モバイル画面ではボタンを出さない */}
           <Header year={year} />
         </Hidden>
-        <Hidden lgUp>
+        <Hidden mdUp>
           <HeaderMobile year={year} />
         </Hidden>
         <Routing />

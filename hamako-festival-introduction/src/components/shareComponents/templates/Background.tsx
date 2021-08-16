@@ -3,20 +3,23 @@ import './background.css';
 
 const Background: FC = () => {
   return (
-    <div className="field">
-      <div className="item1 shake"></div>
-      <div className="item2 shake"></div>
-      <div className="item3 shake"></div>
-      <div className="item1 shake"></div>
-      <div className="item2 shake"></div>
-      <div className="item1 shake"></div>
-      <div className="item1 shake"></div>
-      <div className="item2 shake"></div>
-      <div className="item3 shake"></div>
-      <div className="item1 shake"></div>
-      <div className="item2 shake"></div>
-      <div className="item3 shake"></div>
-    </div>
+    <>
+      <div className="background"></div>
+      <div className="field">
+        <div className="item1 shake"></div>
+        <div className="item2 shake"></div>
+        <div className="item3 shake"></div>
+        <div className="item1 shake"></div>
+        <div className="item2 shake"></div>
+        <div className="item1 shake"></div>
+        <div className="item1 shake"></div>
+        <div className="item2 shake"></div>
+        <div className="item3 shake"></div>
+        <div className="item1 shake"></div>
+        <div className="item2 shake"></div>
+        <div className="item3 shake"></div>
+      </div>
+    </>
   );
 };
 
