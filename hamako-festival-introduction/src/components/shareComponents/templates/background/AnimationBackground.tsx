@@ -1,10 +1,9 @@
 import { FC } from 'react';
-import './background.css';
+import './animationBackground.css';
 
-const Background: FC = () => {
+const AnimationBackground: FC = () => {
   return (
     <>
-      <div className="background"></div>
       <div className="field">
         <div className="item1 shake"></div>
         <div className="item2 shake"></div>
@@ -22,5 +21,4 @@ const Background: FC = () => {
     </>
   );
 };
-
-export { Background };
+export { AnimationBackground };

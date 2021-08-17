@@ -1,7 +1,6 @@
 import { Hidden } from '@material-ui/core';
 import { FC } from 'react';
 import { Routing } from './components/ListOfExhibits/organisms/Routing';
-import { Background } from './components/shareComponents/templates/Background';
 import { Header } from './components/shareComponents/templates/header/Header';
 import { HeaderMobile } from './components/shareComponents/templates/header/HeaderMobile';
 
@@ -19,7 +18,6 @@ const App: FC = () => {
         </Hidden>
         <Routing />
       </div>
-      <Background />
     </>
   );
 };

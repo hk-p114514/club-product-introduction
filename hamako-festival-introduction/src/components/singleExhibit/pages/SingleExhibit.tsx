@@ -2,6 +2,7 @@
 import { Grid } from '@material-ui/core';
 import { FC } from 'react';
 import { Helmet } from 'react-helmet';
+import { AnimationBackground } from '../../shareComponents/templates/background/AnimationBackground';
 import { Introduction } from '../templates/Introduction';
 import { SlideShow } from '../templates/SlideShow';
 import './SingleExhibit.css';
@@ -29,6 +30,7 @@ const SingleExhibit: FC<Props> = (props: Props) => {
           </Grid>
         </Grid>
       </section>
+      <AnimationBackground />
     </>
   );
 };
