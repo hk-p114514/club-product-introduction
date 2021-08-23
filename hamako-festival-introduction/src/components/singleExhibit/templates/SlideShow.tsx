@@ -25,10 +25,11 @@ const settings = {
 
 type Props = {
   images: string[];
+  videos: string[];
 };
 
 const SlideShow: FC<Props> = (props: Props) => {
-  const { images } = props;
+  const { images, videos } = props;
 
   return (
     <section className="slider-container">
@@ -38,6 +39,14 @@ const SlideShow: FC<Props> = (props: Props) => {
             <div key={i}>
               <img src={image} alt="image" />
             </div>
+          );
+        })}
+        {videos.map((v) => {
+          return (
+            <video autoPlay loop playsInline controls>
+              <source src={v} />
+              Sorry, this video is not available.
+            </video>
           );
         })}
       </Slider>

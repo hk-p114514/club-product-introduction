@@ -1,5 +1,6 @@
 'use strict';
-import sample from './images/sample.png';
+import sampleImg from './images/sample.png';
+import sampleVideo from './videos/sample.mp4';
 
 type Data = {
   id: number;
@@ -11,7 +12,7 @@ type Data = {
 };
 
 const testText = `
-作品説明です作品説明です作品説明です作品説明です
+    作品説明です作品説明です作品説明です作品説明です
     作品説明です作品説明です作品説明です作品説明です
     作品説明です作品説明です作品説明です作品説明です
     作品説明です作品説明です作品説明です作品説明です
@@ -25,7 +26,8 @@ const testText = `
     作品説明です作品説明です作品説明です作品説明です
 `;
 
-const testImage = [sample, sample, sample];
+const testImage = [sampleImg, sampleImg, sampleImg];
+const testVideo = [sampleVideo];
 
 const data: Data[] = [
   {
@@ -33,7 +35,7 @@ const data: Data[] = [
     name: 'レッツ剛田',
     title: 'アンアンパンパンマンマン',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -41,7 +43,7 @@ const data: Data[] = [
     name: 'レディー剛田',
     title: '¥1000',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -49,7 +51,7 @@ const data: Data[] = [
     name: '浅田澄禅',
     title: 'ひらがなでかいてみよう',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -57,7 +59,7 @@ const data: Data[] = [
     name: 'English剛田',
     title: 'やMountain',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -65,7 +67,7 @@ const data: Data[] = [
     name: 'レッツ剛田',
     title: 'アンアンパンパンマンマン',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -73,7 +75,7 @@ const data: Data[] = [
     name: 'レディー剛田',
     title: '¥1000',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -81,7 +83,7 @@ const data: Data[] = [
     name: '浅田澄禅',
     title: 'ひらがなでかいてみよう',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -89,7 +91,7 @@ const data: Data[] = [
     name: 'English剛田',
     title: 'やMountain',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -97,7 +99,7 @@ const data: Data[] = [
     name: 'レッツ剛田',
     title: 'アンアンパンパンマンマン',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -105,7 +107,7 @@ const data: Data[] = [
     name: 'レディー剛田',
     title: '¥1000',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -113,7 +115,7 @@ const data: Data[] = [
     name: '浅田澄禅',
     title: 'ひらがなでかいてみよう',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
   {
@@ -121,7 +123,7 @@ const data: Data[] = [
     name: 'English剛田',
     title: 'やMountain',
     images: testImage,
-    videos: [],
+    videos: testVideo,
     text: testText,
   },
 ];

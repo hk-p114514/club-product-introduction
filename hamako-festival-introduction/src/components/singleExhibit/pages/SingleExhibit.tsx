@@ -11,10 +11,11 @@ type Props = {
   text: string;
   title: string;
   images: string[];
+  videos: string[];
 };
 
 const SingleExhibit: FC<Props> = (props: Props) => {
-  const { name, text, images, title } = props;
+  const { name, text, images, title, videos } = props;
   return (
     <>
       <Helmet>
@@ -23,7 +24,7 @@ const SingleExhibit: FC<Props> = (props: Props) => {
       <section className="container">
         <Grid container spacing={3}>
           <Grid item xs={12} lg={7} xl={8}>
-            <SlideShow images={images} />
+            <SlideShow images={images} videos={videos} />
           </Grid>
           <Grid item xs={12} lg={5} xl={12}>
             <Introduction name={name} text={text} />

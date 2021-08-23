@@ -13,7 +13,7 @@ const Routing: FC = () => {
         <ListOfExhibits />
       </Route>
       {data.map((personalData, i) => {
-        const { id, name, text, images, title } = personalData;
+        const { id, name, text, images, title, videos } = personalData;
         return (
           <Route exact path={`/no${id}`} key={i}>
             <main>
@@ -22,6 +22,7 @@ const Routing: FC = () => {
                 text={text}
                 title={title}
                 images={images}
+                videos={videos}
               />
             </main>
           </Route>
