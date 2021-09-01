@@ -28,12 +28,13 @@ const testText = `
 
 const testImage = [sampleImg, sampleImg, sampleImg];
 const testVideo = [sampleVideo];
+const title = 'タイトル';
 
 const data: Data[] = [
   {
     id: 0,
     name: 'レッツ剛田',
-    title: 'アンアンパンパンマンマン',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -41,7 +42,7 @@ const data: Data[] = [
   {
     id: 1,
     name: 'レディー剛田',
-    title: '¥1000',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -49,7 +50,7 @@ const data: Data[] = [
   {
     id: 2,
     name: '浅田澄禅',
-    title: 'ひらがなでかいてみよう',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -57,7 +58,7 @@ const data: Data[] = [
   {
     id: 3,
     name: 'English剛田',
-    title: 'やMountain',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -65,7 +66,7 @@ const data: Data[] = [
   {
     id: 4,
     name: 'レッツ剛田',
-    title: 'アンアンパンパンマンマン',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -73,7 +74,7 @@ const data: Data[] = [
   {
     id: 5,
     name: 'レディー剛田',
-    title: '¥1000',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -81,7 +82,7 @@ const data: Data[] = [
   {
     id: 6,
     name: '浅田澄禅',
-    title: 'ひらがなでかいてみよう',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -89,7 +90,7 @@ const data: Data[] = [
   {
     id: 7,
     name: 'English剛田',
-    title: 'やMountain',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -97,7 +98,7 @@ const data: Data[] = [
   {
     id: 8,
     name: 'レッツ剛田',
-    title: 'アンアンパンパンマンマン',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -105,7 +106,7 @@ const data: Data[] = [
   {
     id: 9,
     name: 'レディー剛田',
-    title: '¥1000',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -113,7 +114,7 @@ const data: Data[] = [
   {
     id: 10,
     name: '浅田澄禅',
-    title: 'ひらがなでかいてみよう',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,
@@ -121,7 +122,7 @@ const data: Data[] = [
   {
     id: 11,
     name: 'English剛田',
-    title: 'やMountain',
+    title,
     images: testImage,
     videos: testVideo,
     text: testText,

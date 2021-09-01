@@ -9,32 +9,38 @@ import {
 } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { data } from '../../../data/data';
+// import './PersonalData.css';
 
 const PersonalData: FC = () => {
   const classes = useStyle();
 
   return (
-    <Grid container className="exhibits" spacing={10}>
-      {data.map((personalData, i) => {
+    <Grid container className={classes.exhibits} spacing={0}>
+      {data.map((personalData, index) => {
         const { id, title } = personalData;
         return (
-          <Grid item sm={12} md={6} lg={4} key={i}>
-            <Button
-              className={classes.exhibitLinkButton}
-              style={{
-                padding: 0,
-              }}
-            >
-              <Link to={`no${id}`} className={classes.simpleLink}>
-                <Card>
-                  <img src={data[id].images[0]} className={classes.cardImage} />
-                  <CardHeader
-                    title={<h2 className={classes.cardTitle}>{title}</h2>}
-                  />
-                </Card>
-              </Link>
-            </Button>
-          </Grid>
+          <>
+            <Grid item sm={12} md={6} lg={4} key={index} className="container">
+              <Button
+                className={classes.exhibitLinkButton}
+                style={{
+                  padding: 0,
+                }}
+              >
+                <Link to={`no${id}`} className={classes.simpleLink}>
+                  <Card>
+                    <img
+                      src={data[id].images[0]}
+                      className={classes.cardImage}
+                    />
+                    <CardHeader
+                      title={<h2 className={classes.cardTitle}>{title}</h2>}
+                    />
+                  </Card>
+                </Link>
+              </Button>
+            </Grid>
+          </>
         );
       })}
     </Grid>
@@ -43,8 +49,12 @@ const PersonalData: FC = () => {
 
 const useStyle = makeStyles(() =>
   createStyles({
+    exhibits: {
+      display: 'flex',
+    },
     exhibitLinkButton: {
-      padding: 0,
+      display: 'block',
+      margin: '0 auto',
       overflow: 'hidden',
       boxShadow: '0px 5px 10px 1px rgba(0, 0, 0, 0.6)',
       transition: '0.1s',

@@ -9,7 +9,7 @@ const useStyle = makeStyles(() =>
       margin: '0 auto',
       marginTop: '1%',
     },
-  })
+  }),
 );
 
 // 展示数分の紹介リンク
