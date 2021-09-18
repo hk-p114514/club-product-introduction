@@ -1,0 +1,9 @@
+.page-controller {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-controller button {
+  border-radius: 30px;
+  margin: 5px;
+}

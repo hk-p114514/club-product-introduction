@@ -1,0 +1,11 @@
+.appBar {
+  background-color: rgba(150, 150, 150, 0.5) !important;
+  padding: 0.5em 0;
+}
+
+.appBar-contents {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}

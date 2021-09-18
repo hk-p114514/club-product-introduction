@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.introduction-container {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
+  padding: 32px;
+}
+
+.slider-container {
+  /* 画像下にできる余白を削除 */
+  line-height: 0;
+}

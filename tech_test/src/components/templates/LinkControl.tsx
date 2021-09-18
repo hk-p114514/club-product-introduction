@@ -18,6 +18,12 @@ const LinkControl: FC = () => {
         <li>
           <Link to="/fetch">fetch</Link>
         </li>
+        <li>
+          <Link to="/animation1">animation1</Link>
+        </li>
+        <li>
+          <Link to="/animation2">animation2</Link>
+        </li>
       </ul>
     </>
   );

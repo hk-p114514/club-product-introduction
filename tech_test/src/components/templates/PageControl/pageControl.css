@@ -4,5 +4,6 @@
 }
 
 .page-control > * {
+  z-index: 1;
   margin: 1em;
 }
