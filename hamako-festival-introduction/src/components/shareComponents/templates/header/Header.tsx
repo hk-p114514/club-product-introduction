@@ -1,4 +1,4 @@
-// ヘッダー部分
+/* ヘッダー部分*/
 import { AppBar, makeStyles, Theme, useTheme } from '@material-ui/core';
 import { Title } from '../../organisms/Title';
 import { FC } from 'react';

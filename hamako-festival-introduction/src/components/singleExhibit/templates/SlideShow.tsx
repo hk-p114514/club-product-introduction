@@ -1,4 +1,4 @@
-// 紹介文横の画像、動画のスライドショー
+/* 紹介文横の画像、動画のスライドショー*/
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './slideShow.css';
@@ -6,21 +6,21 @@ import { FC } from 'react';
 import Slider from 'react-slick';
 
 const settings = {
-  // 操作系
+  /* 操作系*/
   dots: true,
   arrows: true,
-  // 自動再生
+  /* 自動再生*/
   autoplay: true,
   autoplaySpeed: 3000,
   pauseOnHover: true,
-  // 繰り返し
+  /* 繰り返し*/
   infinite: true,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  // 見た目調整
-  // ↓だめだった
-  // adaptiveHeight: true,
+  /* 見た目調整*/
+  /* ↓だめだった*/
+  /* adaptiveHeight: true,*/
 };
 
 type Props = {

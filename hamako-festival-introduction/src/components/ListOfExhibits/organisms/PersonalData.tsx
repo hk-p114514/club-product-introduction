@@ -9,7 +9,6 @@ import {
 } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { data } from '../../../data/data';
-// import './PersonalData.css';
 
 const PersonalData: FC = () => {
   const classes = useStyle();
