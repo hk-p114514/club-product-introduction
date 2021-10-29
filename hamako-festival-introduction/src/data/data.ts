@@ -13,6 +13,9 @@ import img3_0 from './images/3_0.png';
 import img3_1 from './images/3_1.png';
 import img3_2 from './images/3_2.png';
 import video3_0 from './videos/3_0.mp4';
+import img4_0 from './images/4_0.png';
+import img4_1 from './images/4_1.png';
+import img4_2 from './images/4_2.png';
 
 type Data = {
   id: number;
@@ -62,6 +65,24 @@ const data: Data[] = [
     images: [img2_1, img2_2, img2_3, img2_4, img2_5],
     videos: [],
     text: ``,
+  },
+  {
+    id: 3,
+    name: 'ei2030',
+    title: 'シューティングゲーム',
+    images: [img3_0, img3_1, img3_2],
+    videos: [video3_0],
+    text: `文字通りシューティングゲームです。
+実はゲームエンジンを使っていません。JavaScript(TypeScript)という言語で開発しています。
+運が良ければラスボスの元ネタになった方に会えるかもしれません。`,
+  },
+  {
+    id: 4,
+    name: 'R1933',
+    title: 'タワーディフェンス',
+    images: [img4_0, img4_1, img4_2],
+    videos: [],
+    text: `我らが偉大な先輩（３年）が制作された作品です。`,
   },
 ];
 
