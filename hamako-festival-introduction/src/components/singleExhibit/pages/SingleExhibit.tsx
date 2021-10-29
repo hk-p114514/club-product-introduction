@@ -1,4 +1,4 @@
-// 個々の展示の紹介ページ
+/* 個々の展示の紹介ページ*/
 import { Grid } from '@material-ui/core';
 import { FC } from 'react';
 import { Helmet } from 'react-helmet';

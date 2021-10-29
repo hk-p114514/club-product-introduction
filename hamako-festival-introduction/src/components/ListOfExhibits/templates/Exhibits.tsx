@@ -12,7 +12,7 @@ const useStyle = makeStyles(() =>
   }),
 );
 
-// 展示数分の紹介リンク
+/* 展示数分の紹介リンク*/
 const Exhibits: FC = () => {
   const classes = useStyle();
   return (

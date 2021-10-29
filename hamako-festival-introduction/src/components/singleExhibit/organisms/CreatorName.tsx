@@ -1,4 +1,4 @@
-// 展示品の作者の名前
+/* 展示品の作者の名前*/
 import { FC } from 'react';
 import './creatorName.css';
 

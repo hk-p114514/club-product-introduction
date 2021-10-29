@@ -1,4 +1,4 @@
-// 展示の紹介と作成者氏名
+/* 展示の紹介と作成者氏名*/
 import { Paper } from '@material-ui/core';
 import { FC } from 'react';
 import { CreatorName } from '../organisms/CreatorName';

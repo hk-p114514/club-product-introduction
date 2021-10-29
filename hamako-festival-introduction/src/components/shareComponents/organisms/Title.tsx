@@ -5,7 +5,7 @@ type Props = {
   title: string;
 };
 
-// ヘッダのタイトル部分
+/* ヘッダのタイトル部分*/
 const Title: FC<Props> = (props: Props) => {
   const { title } = props;
   return (
