@@ -9,6 +9,10 @@ import img2_2 from './images/2_2.png';
 import img2_3 from './images/2_3.png';
 import img2_4 from './images/2_4.png';
 import img2_5 from './images/2_5.png';
+import img3_0 from './images/3_0.png';
+import img3_1 from './images/3_1.png';
+import img3_2 from './images/3_2.png';
+import video3_0 from './videos/3_0.mp4';
 
 type Data = {
   id: number;
