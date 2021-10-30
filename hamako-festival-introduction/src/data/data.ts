@@ -12,6 +12,7 @@ import img2_5 from './images/2_5.png';
 import img3_0 from './images/3_0.png';
 import img3_1 from './images/3_1.png';
 import img3_2 from './images/3_2.png';
+import video3_0 from './videos/3_0.mp4';
 import img4_0 from './images/4_0.png';
 import img4_1 from './images/4_1.png';
 import img4_2 from './images/4_2.png';
@@ -70,7 +71,7 @@ const data: Data[] = [
     name: 'ei2030',
     title: 'シューティングゲーム',
     images: [img3_0, img3_1, img3_2],
-    videos: [],
+    videos: [video3_0],
     text: `文字通りシューティングゲームです。
 実はゲームエンジンを使っていません。JavaScript(TypeScript)という言語で開発しています。
 運が良ければラスボスの元ネタになった方に会えるかもしれません。`,
